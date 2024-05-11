@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.navbar-nav .nav-item a{
+    color: greenyellow;
+    text-shadow: 1px 1px white;
+    margin-right: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+    transition: .7s;
+
+
+}
+.navbar-nav .nav-item a:hover{
+    border-bottom: 2px solid red;
+}
+.navbar-brand{
+    font-size: 33px;
+    font-weight: 700;
+    color: aqua;
+    text-shadow: 2px 2px rgb(230, 129, 242);
+    user-select: none;
+    font-family: "Poppins", sans-serif;
+    /* cursor: none; */
+
+}
+
+.navbar{
+    position: sticky;
+    box-shadow: 5px 5px 10px solid rgba(76, 224, 68, 0.5);
+    background: black;
+
+}
+.btn{
+    border-radius: 20px;
+    font-weight: 700;
+    margin:10px ;
+    font-size: 22px;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+section{
+    min-height: 100%;
+    width: 100%;
+}
+#section h2{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(249, 249, 143);
+    margin-left: 20px;
+}
+
+ #section{
+    background: url(/images/food\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 2s;
+} 
+#section .rounded-3, .rounded-circle{
+    height: 200px;
+    width: 200px;
+    margin: 20px 0px 20px 20px;
+}
+#section p{
+    color: white;
+    font-family: "Caveat", cursive;
+    font-size: 23px;
+    text-indent: 100px;
+    text-align:justify;
+
+}
+
+
+#low-price{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: -20px;
+    /* background:url(/images/back\ dark1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#low-price h2{
+    color: rgb(45, 9, 243);
+    text-transform: capitalize;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    margin: 20px;
+}
+#low-price img{
+    height: 200px;
+    width: 250px;
+}
+
+.card{
+    margin: 20px 20px 10px; 
+    height: 360px;
+    width: 250px;
+    background: #dad5d5 !important;
+    box-shadow: 3px 3px 30px rgb(12, 12, 12);
+    transition: 2s;
+
+}
+.card:hover{
+    transform: rotate(360deg);
+}
+.card h4,p{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-shadow: 2px 2px solid black;
+}
+.dryFruits{
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+
+}
+.dryFruits h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+    text-shadow: 2px 2px 3px black;
+    font-family: "popins",sans-serif;
+    text-transform: capitalize;
+}
+.dryFruits img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.dryFruits .card{
+    margin: 20px 20px 10px; 
+    height: 420px;
+    width: 250px;
+    background: #dad5d5 !important;
+    box-shadow: 5px 5px 30px rgb(12, 12, 12);
+    transition: 2s;
+
+}
+.dryFruits .card:hover{
+    transform: rotate(360deg);
+}
+
+#form input{
+    height: 50px;
+    /* width: 400px; */
+    margin-bottom: 20px;
+    /* margin-top: 100px; */
+}
+
+#form img{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#form{
+    margin-top: 100px;
+}
+#form h2{
+    font-size: 25px;
+    font-weight: 700;
+    font-family:"Caveat", cursive ;
+    color: transparent;
+    background:linear-gradient(rgb(251, 113, 34),rgb(15, 251, 200));
+    -webkit-background-clip: text;
+}
+::placeholder{
+    text-shadow: 1px 1px 2px rgb(8, 232, 34);
+}
+#form input{
+    color: rgb(35, 235, 245);
+}
